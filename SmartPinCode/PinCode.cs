@@ -51,7 +51,10 @@ namespace SmartPinCode
             Type = type;
         }
 
-
+        /// <summary>
+        /// This method generates pinCode
+        /// </summary>
+        /// <returns>A string of generated pinCode</returns>
         public string Generate()
         {
             byte[] randomBytes = new byte[pin.Length];
