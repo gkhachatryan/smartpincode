@@ -13,6 +13,8 @@ int pinlenght = 15;
 PinCode pin = new PinCode(pinlenght, PinCodeType.Numeric);
 string newpin = pin.Generate();
 ```
+## Result
+![GitHub Logo](pincode.png)
 
 ## Installation
 
@@ -20,5 +22,5 @@ string newpin = pin.Generate();
 
 You can clone it with this link https://github.com/gkhachatryan/smartpincode.git
 
-## Result
+
 
