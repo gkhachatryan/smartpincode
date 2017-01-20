@@ -5,9 +5,13 @@ This C# library will help you to generate random pincodes.
 ## How to use
 Below is shown how to use PinCode class to generate pincodes.
 ```cs
-int pinCodeLength = 5;
+int pinCodeLength = 25;
 PinCode pinCode = new PinCode(pinCodeLength, PinCodeType.AlphaNumericWithSymbols);
 string newPinCode = pinCode.Generate(); 
+
+int pinlenght = 15;
+PinCode pin = new PinCode(pinlenght, PinCodeType.Numeric);
+string newpin = pin.Generate();
 ```
 
 ## Installation
@@ -16,4 +20,5 @@ string newPinCode = pinCode.Generate();
 
 You can clone it with this link https://github.com/gkhachatryan/smartpincode.git
 
-## API Reference
+## Result
+
