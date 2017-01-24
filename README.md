@@ -4,7 +4,7 @@ This C# library will help you to generate random pincodes.
 
 ## How to use
 Below is shown how to use PinCode class to generate pincodes.
-```cs
+```c#
 int pinCodeLength = 25;
 PinCode pinCode = new PinCode(pinCodeLength, PinCodeType.AlphaNumericWithSymbols);
 string newPinCode = pinCode.Generate(); 
